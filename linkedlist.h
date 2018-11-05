@@ -16,7 +16,7 @@ typedef struct linkedList{
 } linkedList;
 
 linkedList *newLinkedList();
-void insert(linkedList*, int);
-void displayList(linkedList);
+void insert_linkedlist(linkedList*, int);
+void displayList_linkedlist(linkedList);
 
 #endif //DSAIMPLEMENTATION_LINKEDLIST_H

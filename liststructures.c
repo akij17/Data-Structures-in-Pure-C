@@ -39,13 +39,11 @@ void listMenu(){
                        "Enter -1 -1 to return to main menu\n"
                        "Insert: ");
                 scanf("%d %d", &i1, &p1);
-                if(listType==0) insert(aList, i1, p1);
-                //else if(listType == 1)  insert(lList,i1);
-                //C DOES NOT HAS FUNCTION OVERLOADING
+                if(listType==0) insert_arraylist(aList, i1, p1);
             }while(i1 != -1 && p1 != -1);
             goto begin;
         case 2:
-            displayList(*aList);
+            displayList_arraylist(*aList);
             pressEnterKey();
             goto begin;
         case 3:
@@ -56,7 +54,7 @@ void listMenu(){
             int i2, p2;
             scanf("%d %d", &p2, &i2);
             if(p2 == 'P'){
-                delete(aList, i2);
+                delete_arraylist(aList, i2);
             }
             if(p2 == 'I'){
                 //deleteItem(aList, i2);

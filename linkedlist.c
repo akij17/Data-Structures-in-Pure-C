@@ -15,7 +15,7 @@ linkedList *newLinkedList(){
     return llist;
 }
 
-void insert(linkedList *llist, int item){
+void insert_linkedlist(linkedList *llist, int item){
     node *current = llist->head;
     if(llist->size == 0){
         node *newNode = malloc(sizeof(node));
@@ -36,7 +36,7 @@ void insert(linkedList *llist, int item){
     }
 }
 
-void displayList(linkedList llist){
+void displayList_linkedlist(linkedList llist){
     printf("Contents of array list: ");
     node *current = llist.head;
     while(current->next!=NULL){
