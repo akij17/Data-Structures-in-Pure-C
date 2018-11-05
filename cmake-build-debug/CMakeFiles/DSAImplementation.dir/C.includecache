@@ -6,49 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Akshay/CLionProjects/DSAImplementation/arraylist.c
-arraylist.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/arraylist.h
+C:/Users/WoLvErInE/CLionProjects/DSAonC/main.c
 stdio.h
 -
-malloc.h
--
+tree.h
+C:/Users/WoLvErInE/CLionProjects/DSAonC/tree.h
 
-C:/Users/Akshay/CLionProjects/DSAImplementation/arraylist.h
-
-C:/Users/Akshay/CLionProjects/DSAImplementation/cmake-build-debug/linkedlist.c
-stdio.h
--
+C:/Users/WoLvErInE/CLionProjects/DSAonC/tree.c
 stdlib.h
 -
-linkedlist.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/cmake-build-debug/linkedlist.h
-
-C:/Users/Akshay/CLionProjects/DSAImplementation/cmake-build-debug/linkedlist.h
-
-C:/Users/Akshay/CLionProjects/DSAImplementation/helpers.h
-
-C:/Users/Akshay/CLionProjects/DSAImplementation/liststructures.c
 stdio.h
 -
-stdlib.h
--
-liststructures.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/liststructures.h
-arraylist.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/arraylist.h
-linkedlist.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/linkedlist.h
-helpers.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/helpers.h
+tree.h
+C:/Users/WoLvErInE/CLionProjects/DSAonC/tree.h
 
-C:/Users/Akshay/CLionProjects/DSAImplementation/liststructures.h
-
-C:/Users/Akshay/CLionProjects/DSAImplementation/main.c
-stdio.h
--
-arraylist.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/arraylist.h
-liststructures.h
-C:/Users/Akshay/CLionProjects/DSAImplementation/liststructures.h
+C:/Users/WoLvErInE/CLionProjects/DSAonC/tree.h
 

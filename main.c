@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "arraylist.h"
-#include "liststructures.h"
+//#include "arraylist.h"
+//#include "liststructures.h"
 #include "tree.h"
 
 int main() {
@@ -18,7 +18,7 @@ int main() {
 	    switch(ch)
 		{
 	        case 1:
-				listMenu();
+				//listMenu();
 	        break;
 	
 	        case 2:

@@ -7,15 +7,21 @@ CMakeFiles/DSAImplementation.dir/arraylist.obj: ../arraylist.h
 CMakeFiles/DSAImplementation.dir/helpers.obj: ../helpers.c
 CMakeFiles/DSAImplementation.dir/helpers.obj: ../helpers.h
 
-CMakeFiles/DSAImplementation.dir/linkedlist.obj: linkedlist.c
-CMakeFiles/DSAImplementation.dir/linkedlist.obj: linkedlist.h
+CMakeFiles/DSAImplementation.dir/linkedlist.obj: ../linkedlist.c
+CMakeFiles/DSAImplementation.dir/linkedlist.obj: ../linkedlist.h
 
 CMakeFiles/DSAImplementation.dir/liststructures.obj: ../arraylist.h
 CMakeFiles/DSAImplementation.dir/liststructures.obj: ../helpers.h
+CMakeFiles/DSAImplementation.dir/liststructures.obj: ../linkedlist.h
 CMakeFiles/DSAImplementation.dir/liststructures.obj: ../liststructures.c
 CMakeFiles/DSAImplementation.dir/liststructures.obj: ../liststructures.h
 
-CMakeFiles/DSAImplementation.dir/main.obj: ../arraylist.h
-CMakeFiles/DSAImplementation.dir/main.obj: ../liststructures.h
 CMakeFiles/DSAImplementation.dir/main.obj: ../main.c
+CMakeFiles/DSAImplementation.dir/main.obj: ../tree.h
+
+CMakeFiles/DSAImplementation.dir/sortnsearch.obj: ../sortnsearch.c
+CMakeFiles/DSAImplementation.dir/sortnsearch.obj: ../sortnsearch.h
+
+CMakeFiles/DSAImplementation.dir/tree.obj: ../tree.c
+CMakeFiles/DSAImplementation.dir/tree.obj: ../tree.h
 
