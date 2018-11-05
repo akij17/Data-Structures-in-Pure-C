@@ -5,6 +5,7 @@
 #include<stdio.h>
 #include "tree.h"
 
+
 tree *root_tree=null, *temp_tree=null;
 
 tree* create_tree_node(int key)
