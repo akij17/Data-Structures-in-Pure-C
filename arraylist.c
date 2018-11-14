@@ -15,7 +15,7 @@ arrayList *newArrayList(int n){
     return aList;
 }
 
-void insert_arraylist(arrayList *aList, int item, int position){
+void insert_arrayList(arrayList *aList, int item, int position){
     if(aList->size < aList->totalSize && position>-1){
         int endPos = aList->size;
         for(int i = endPos; i>=position; i--){
@@ -26,34 +26,28 @@ void insert_arraylist(arrayList *aList, int item, int position){
     }
 }
 
-/*void insertEnd(arrayList *aList, int item){
-    if(aList->size < aList->totalSize){
-        (aList->data)[aList->size] = item;
-        (aList->size)++;
-        //*((aList->data)+aList->size) = item;
-        //(aList->size)++;
-    }
+int isEmpty_arrayList(arrayList aList){
+    if(aList.size == 0)
+        return 1;
+    else return 0;
 }
 
-void insertTop(arrayList *aList, int item){
-    insert(aList, item, 0);
-}
-*/
-void displayList_arraylist(arrayList aList){
+void displayList_arrayList(arrayList aList){
     printf("Contents of array list: ");
     for(int i = 0; i<aList.size; i++){
         printf("%d -> ", aList.data[i]);
     }
 }
 
-void delete_arraylist(arrayList *aList, int pos){
+void delete_arrayList(arrayList *aList, int pos){
     if(pos > aList->size){
         //Overflow condition
     }else if(pos==aList->size){
         (aList->size)--;
     }else{
         for(int i = pos; i<aList->size; i++){
-            (aList->data)[pos] = (aList->data)[pos+1];
+            (aList->data)[i] = (aList->data)[i+1];
         }
+        (aList->size)--;
     }
 }

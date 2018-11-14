@@ -1,4 +1,4 @@
-ToolSet: w64 3.4@C:\Program Files (x86)\Dev-Cpp\MinGW64
+ToolSet: 5.0@C:\MinGW
 Options: 
 
 Options:

@@ -8,116 +8,131 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSAImplementation">
-				<Option output="C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/DSAImplementation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/DSAImplementation.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/lib"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSAImplementation"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSAImplementation"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSAImplementation/fast">
-				<Option output="C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/DSAImplementation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/DSAImplementation.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/lib"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSAImplementation/fast"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSAImplementation/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/arraylist.c">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/arraylist.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/arraylist.h">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/arraylist.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/helpers.c">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/helpers.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/helpers.h">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/helpers.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/linkedlist.c">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/linkedlist.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/linkedlist.h">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/linkedlist.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/liststructures.c">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/liststructures.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/liststructures.h">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/liststructures.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/main.c">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/main.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/sortnsearch.c">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/main.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/sortnsearch.h">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/sortnsearch.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/tree.c">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/sortnsearch.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/tree.h">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/stackQueue.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/DSAonC/CMakeLists.txt">
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/stackQueue.h">
+			<Option target="DSAImplementation"/>
+		</Unit>
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/stack_al.c">
+			<Option target="DSAImplementation"/>
+		</Unit>
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/stack_al.h">
+			<Option target="DSAImplementation"/>
+		</Unit>
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/tree.c">
+			<Option target="DSAImplementation"/>
+		</Unit>
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/tree.h">
+			<Option target="DSAImplementation"/>
+		</Unit>
+		<Unit filename="C:/Users/Akshay/CLionProjects/DSAonC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

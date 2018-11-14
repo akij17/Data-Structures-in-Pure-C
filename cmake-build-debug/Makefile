@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\WoLvErInE\CLionProjects\DSAonC
+CMAKE_SOURCE_DIR = C:\Users\Akshay\CLionProjects\DSAonC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\WoLvErInE\CLionProjects\DSAonC\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\WoLvErInE\CLionProjects\DSAonC\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WoLvErInE\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles C:\Users\WoLvErInE\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WoLvErInE\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,110 +122,248 @@ DSAImplementation/fast:
 	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/build
 .PHONY : DSAImplementation/fast
 
-# target to build an object file
-arraylist.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/arraylist.obj
+arraylist.obj: arraylist.c.obj
+
 .PHONY : arraylist.obj
 
-# target to preprocess a source file
-arraylist.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/arraylist.i
+# target to build an object file
+arraylist.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/arraylist.c.obj
+.PHONY : arraylist.c.obj
+
+arraylist.i: arraylist.c.i
+
 .PHONY : arraylist.i
 
-# target to generate assembly for a file
-arraylist.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/arraylist.s
+# target to preprocess a source file
+arraylist.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/arraylist.c.i
+.PHONY : arraylist.c.i
+
+arraylist.s: arraylist.c.s
+
 .PHONY : arraylist.s
 
-# target to build an object file
-helpers.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/helpers.obj
+# target to generate assembly for a file
+arraylist.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/arraylist.c.s
+.PHONY : arraylist.c.s
+
+helpers.obj: helpers.c.obj
+
 .PHONY : helpers.obj
 
-# target to preprocess a source file
-helpers.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/helpers.i
+# target to build an object file
+helpers.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/helpers.c.obj
+.PHONY : helpers.c.obj
+
+helpers.i: helpers.c.i
+
 .PHONY : helpers.i
 
-# target to generate assembly for a file
-helpers.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/helpers.s
+# target to preprocess a source file
+helpers.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/helpers.c.i
+.PHONY : helpers.c.i
+
+helpers.s: helpers.c.s
+
 .PHONY : helpers.s
 
-# target to build an object file
-linkedlist.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/linkedlist.obj
+# target to generate assembly for a file
+helpers.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/helpers.c.s
+.PHONY : helpers.c.s
+
+linkedlist.obj: linkedlist.c.obj
+
 .PHONY : linkedlist.obj
 
-# target to preprocess a source file
-linkedlist.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/linkedlist.i
+# target to build an object file
+linkedlist.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/linkedlist.c.obj
+.PHONY : linkedlist.c.obj
+
+linkedlist.i: linkedlist.c.i
+
 .PHONY : linkedlist.i
 
-# target to generate assembly for a file
-linkedlist.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/linkedlist.s
+# target to preprocess a source file
+linkedlist.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/linkedlist.c.i
+.PHONY : linkedlist.c.i
+
+linkedlist.s: linkedlist.c.s
+
 .PHONY : linkedlist.s
 
-# target to build an object file
-liststructures.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/liststructures.obj
+# target to generate assembly for a file
+linkedlist.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/linkedlist.c.s
+.PHONY : linkedlist.c.s
+
+liststructures.obj: liststructures.c.obj
+
 .PHONY : liststructures.obj
 
-# target to preprocess a source file
-liststructures.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/liststructures.i
+# target to build an object file
+liststructures.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/liststructures.c.obj
+.PHONY : liststructures.c.obj
+
+liststructures.i: liststructures.c.i
+
 .PHONY : liststructures.i
 
-# target to generate assembly for a file
-liststructures.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/liststructures.s
+# target to preprocess a source file
+liststructures.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/liststructures.c.i
+.PHONY : liststructures.c.i
+
+liststructures.s: liststructures.c.s
+
 .PHONY : liststructures.s
 
-# target to build an object file
-main.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.obj
+# target to generate assembly for a file
+liststructures.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/liststructures.c.s
+.PHONY : liststructures.c.s
+
+main.obj: main.c.obj
+
 .PHONY : main.obj
 
-# target to preprocess a source file
-main.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.i
+# target to build an object file
+main.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+
 .PHONY : main.i
 
-# target to generate assembly for a file
-main.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.s
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
 .PHONY : main.s
 
-# target to build an object file
-sortnsearch.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/sortnsearch.obj
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.c.s
+.PHONY : main.c.s
+
+sortnsearch.obj: sortnsearch.c.obj
+
 .PHONY : sortnsearch.obj
 
-# target to preprocess a source file
-sortnsearch.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/sortnsearch.i
+# target to build an object file
+sortnsearch.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj
+.PHONY : sortnsearch.c.obj
+
+sortnsearch.i: sortnsearch.c.i
+
 .PHONY : sortnsearch.i
 
-# target to generate assembly for a file
-sortnsearch.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/sortnsearch.s
+# target to preprocess a source file
+sortnsearch.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/sortnsearch.c.i
+.PHONY : sortnsearch.c.i
+
+sortnsearch.s: sortnsearch.c.s
+
 .PHONY : sortnsearch.s
 
+# target to generate assembly for a file
+sortnsearch.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/sortnsearch.c.s
+.PHONY : sortnsearch.c.s
+
+stackQueue.obj: stackQueue.c.obj
+
+.PHONY : stackQueue.obj
+
 # target to build an object file
-tree.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.obj
-.PHONY : tree.obj
+stackQueue.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/stackQueue.c.obj
+.PHONY : stackQueue.c.obj
+
+stackQueue.i: stackQueue.c.i
+
+.PHONY : stackQueue.i
 
 # target to preprocess a source file
-tree.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.i
-.PHONY : tree.i
+stackQueue.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/stackQueue.c.i
+.PHONY : stackQueue.c.i
+
+stackQueue.s: stackQueue.c.s
+
+.PHONY : stackQueue.s
 
 # target to generate assembly for a file
-tree.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.s
+stackQueue.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/stackQueue.c.s
+.PHONY : stackQueue.c.s
+
+stack_al.obj: stack_al.c.obj
+
+.PHONY : stack_al.obj
+
+# target to build an object file
+stack_al.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/stack_al.c.obj
+.PHONY : stack_al.c.obj
+
+stack_al.i: stack_al.c.i
+
+.PHONY : stack_al.i
+
+# target to preprocess a source file
+stack_al.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/stack_al.c.i
+.PHONY : stack_al.c.i
+
+stack_al.s: stack_al.c.s
+
+.PHONY : stack_al.s
+
+# target to generate assembly for a file
+stack_al.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/stack_al.c.s
+.PHONY : stack_al.c.s
+
+tree.obj: tree.c.obj
+
+.PHONY : tree.obj
+
+# target to build an object file
+tree.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.c.obj
+.PHONY : tree.c.obj
+
+tree.i: tree.c.i
+
+.PHONY : tree.i
+
+# target to preprocess a source file
+tree.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.c.i
+.PHONY : tree.c.i
+
+tree.s: tree.c.s
+
 .PHONY : tree.s
+
+# target to generate assembly for a file
+tree.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.c.s
+.PHONY : tree.c.s
 
 # Help Target
 help:
@@ -254,6 +392,12 @@ help:
 	@echo ... sortnsearch.obj
 	@echo ... sortnsearch.i
 	@echo ... sortnsearch.s
+	@echo ... stackQueue.obj
+	@echo ... stackQueue.i
+	@echo ... stackQueue.s
+	@echo ... stack_al.obj
+	@echo ... stack_al.i
+	@echo ... stack_al.s
 	@echo ... tree.obj
 	@echo ... tree.i
 	@echo ... tree.s

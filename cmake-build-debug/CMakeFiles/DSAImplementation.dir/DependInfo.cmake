@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/WoLvErInE/CLionProjects/DSAonC/arraylist.c" "C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/arraylist.obj"
-  "C:/Users/WoLvErInE/CLionProjects/DSAonC/helpers.c" "C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/helpers.obj"
-  "C:/Users/WoLvErInE/CLionProjects/DSAonC/linkedlist.c" "C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/linkedlist.obj"
-  "C:/Users/WoLvErInE/CLionProjects/DSAonC/liststructures.c" "C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/liststructures.obj"
-  "C:/Users/WoLvErInE/CLionProjects/DSAonC/main.c" "C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/main.obj"
-  "C:/Users/WoLvErInE/CLionProjects/DSAonC/sortnsearch.c" "C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/sortnsearch.obj"
-  "C:/Users/WoLvErInE/CLionProjects/DSAonC/tree.c" "C:/Users/WoLvErInE/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/tree.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/arraylist.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/arraylist.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/helpers.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/helpers.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/linkedlist.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/linkedlist.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/liststructures.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/liststructures.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/main.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/main.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/sortnsearch.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/stackQueue.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/stackQueue.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/stack_al.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/stack_al.c.obj"
+  "C:/Users/Akshay/CLionProjects/DSAonC/tree.c" "C:/Users/Akshay/CLionProjects/DSAonC/cmake-build-debug/CMakeFiles/DSAImplementation.dir/tree.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

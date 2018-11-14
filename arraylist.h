@@ -13,9 +13,10 @@ typedef struct arrayList{
 } arrayList;
 
 arrayList *newArrayList(int);
-void displayList_arraylist(arrayList);
+void displayList_arrayList(arrayList);
+int isEmpty_arrayList(arrayList);
 void insertEnd(arrayList*, int);
-void insert_arraylist(arrayList*, int, int);
+void insert_arrayList(arrayList*, int, int);
 void insertTop(arrayList*, int);
-void delete_arraylist(arrayList*, int);
+void delete_arrayList(arrayList*, int);
 #endif //DSAIMPLEMENTATION_ARRAYLIST_H
