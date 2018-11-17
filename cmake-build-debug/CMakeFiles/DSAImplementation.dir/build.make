@@ -210,19 +210,19 @@ CMakeFiles/DSAImplementation.dir/bst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/bst.c.s"
 	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\bst.c -o CMakeFiles\DSAImplementation.dir\bst.c.s
 
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../main_tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/DSAImplementation.dir/main_tree.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\main_tree.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\main_tree.c
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../main_btree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/DSAImplementation.dir/main_btree.c.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\main_btree.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\main_btree.c
 
-CMakeFiles/DSAImplementation.dir/main_tree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/main_tree.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\main_tree.c > CMakeFiles\DSAImplementation.dir\main_tree.c.i
+CMakeFiles/DSAImplementation.dir/main_btree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/main_btree.c.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\main_btree.c > CMakeFiles\DSAImplementation.dir\main_btree.c.i
 
-CMakeFiles/DSAImplementation.dir/main_tree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/main_tree.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\main_tree.c -o CMakeFiles\DSAImplementation.dir\main_tree.c.s
+CMakeFiles/DSAImplementation.dir/main_btree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/main_btree.c.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\main_btree.c -o CMakeFiles\DSAImplementation.dir\main_btree.c.s
 
 # Object files for target DSAImplementation
 DSAImplementation_OBJECTS = \
@@ -237,7 +237,7 @@ DSAImplementation_OBJECTS = \
 "CMakeFiles/DSAImplementation.dir/btree.c.obj" \
 "CMakeFiles/DSAImplementation.dir/avl_bst.c.obj" \
 "CMakeFiles/DSAImplementation.dir/bst.c.obj" \
-"CMakeFiles/DSAImplementation.dir/main_tree.c.obj"
+"CMakeFiles/DSAImplementation.dir/main_btree.c.obj"
 
 # External object files for target DSAImplementation
 DSAImplementation_EXTERNAL_OBJECTS =
@@ -253,7 +253,7 @@ DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/stackQueue.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/btree.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/avl_bst.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/bst.c.obj
-DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/main_tree.c.obj
+DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/main_btree.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/build.make
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/linklibs.rsp
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/objects1.rsp

@@ -338,32 +338,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.c.s
 .PHONY : main.c.s
 
-main_tree.obj: main_tree.c.obj
+main_btree.obj: main_btree.c.obj
 
-.PHONY : main_tree.obj
+.PHONY : main_btree.obj
 
 # target to build an object file
-main_tree.c.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.obj
-.PHONY : main_tree.c.obj
+main_btree.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_btree.c.obj
+.PHONY : main_btree.c.obj
 
-main_tree.i: main_tree.c.i
+main_btree.i: main_btree.c.i
 
-.PHONY : main_tree.i
+.PHONY : main_btree.i
 
 # target to preprocess a source file
-main_tree.c.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.i
-.PHONY : main_tree.c.i
+main_btree.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_btree.c.i
+.PHONY : main_btree.c.i
 
-main_tree.s: main_tree.c.s
+main_btree.s: main_btree.c.s
 
-.PHONY : main_tree.s
+.PHONY : main_btree.s
 
 # target to generate assembly for a file
-main_tree.c.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.s
-.PHONY : main_tree.c.s
+main_btree.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_btree.c.s
+.PHONY : main_btree.c.s
 
 sortnsearch.obj: sortnsearch.c.obj
 
@@ -479,9 +479,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... main_tree.obj
-	@echo ... main_tree.i
-	@echo ... main_tree.s
+	@echo ... main_btree.obj
+	@echo ... main_btree.i
+	@echo ... main_btree.s
 	@echo ... sortnsearch.obj
 	@echo ... sortnsearch.i
 	@echo ... sortnsearch.s

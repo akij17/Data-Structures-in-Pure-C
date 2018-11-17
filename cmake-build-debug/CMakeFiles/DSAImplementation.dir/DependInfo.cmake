@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/WoLvErInE/CLionProjects/tree4/linkedlist.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/linkedlist.c.obj"
   "C:/Users/WoLvErInE/CLionProjects/tree4/liststructures.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/liststructures.c.obj"
   "C:/Users/WoLvErInE/CLionProjects/tree4/main.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/main.c.obj"
-  "C:/Users/WoLvErInE/CLionProjects/tree4/main_tree.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/main_tree.c.obj"
+  "C:/Users/WoLvErInE/CLionProjects/tree4/main_btree.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/main_btree.c.obj"
   "C:/Users/WoLvErInE/CLionProjects/tree4/sortnsearch.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj"
   "C:/Users/WoLvErInE/CLionProjects/tree4/stackQueue.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/stackQueue.c.obj"
   "C:/Users/WoLvErInE/CLionProjects/tree4/stack_al.c" "C:/Users/WoLvErInE/CLionProjects/tree4/cmake-build-debug/CMakeFiles/DSAImplementation.dir/stack_al.c.obj"

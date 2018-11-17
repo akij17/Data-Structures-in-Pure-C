@@ -32,13 +32,13 @@ CMakeFiles/DSAImplementation.dir/liststructures.c.obj
 CMakeFiles/DSAImplementation.dir/main.c.obj
  C:/Users/WoLvErInE/CLionProjects/tree4/liststructures.h
  C:/Users/WoLvErInE/CLionProjects/tree4/main.c
- C:/Users/WoLvErInE/CLionProjects/tree4/main_tree.h
+ C:/Users/WoLvErInE/CLionProjects/tree4/main_btree.h
  C:/Users/WoLvErInE/CLionProjects/tree4/stackQueue.h
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj
  C:/Users/WoLvErInE/CLionProjects/tree4/avl_bst.h
  C:/Users/WoLvErInE/CLionProjects/tree4/bst.h
  C:/Users/WoLvErInE/CLionProjects/tree4/btree.h
- C:/Users/WoLvErInE/CLionProjects/tree4/main_tree.c
+ C:/Users/WoLvErInE/CLionProjects/tree4/main_btree.c
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj
  C:/Users/WoLvErInE/CLionProjects/tree4/arraylist.h
  C:/Users/WoLvErInE/CLionProjects/tree4/sortnsearch.c

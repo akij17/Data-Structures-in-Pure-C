@@ -10,7 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DSAImplementation.dir/btree.c.obj"
   "CMakeFiles/DSAImplementation.dir/avl_bst.c.obj"
   "CMakeFiles/DSAImplementation.dir/bst.c.obj"
-  "CMakeFiles/DSAImplementation.dir/main_tree.c.obj"
+  "CMakeFiles/DSAImplementation.dir/main_btree.c.obj"
   "DSAImplementation.pdb"
   "DSAImplementation.exe"
   "DSAImplementation.exe.manifest"

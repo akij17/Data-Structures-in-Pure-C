@@ -33,5 +33,5 @@ add_executable(DSAImplementation main.c
         avl_bst.h
         bst.c
         bst.h
-        main_tree.c
-        main_tree.h)
+        main_btree.c
+        main_btree.h)

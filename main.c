@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "stackQueue.h"
 #include "liststructures.h"
-#include "main_tree.h"
+#include "main_btree.h"
 //#include "graph.h"
 
 int main() {
@@ -28,7 +28,7 @@ int main() {
 				break;
 
 			case 3:
-				main_tree();
+				main_btree();
 				break;
 
 			case 4:

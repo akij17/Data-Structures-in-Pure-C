@@ -126,10 +126,10 @@
 		<Unit filename="C:/Users/WoLvErInE/CLionProjects/tree4/main.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/tree4/main_tree.c">
+		<Unit filename="C:/Users/WoLvErInE/CLionProjects/tree4/main_btree.c">
 			<Option target="DSAImplementation"/>
 		</Unit>
-		<Unit filename="C:/Users/WoLvErInE/CLionProjects/tree4/main_tree.h">
+		<Unit filename="C:/Users/WoLvErInE/CLionProjects/tree4/main_btree.h">
 			<Option target="DSAImplementation"/>
 		</Unit>
 		<Unit filename="C:/Users/WoLvErInE/CLionProjects/tree4/sortnsearch.c">

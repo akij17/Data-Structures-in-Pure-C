@@ -7,22 +7,22 @@
 
 #define COUNT 10
 
-typedef struct tree
+typedef struct btree
 {
-    struct tree *left;
-    struct tree *right;
+    struct btree *left;
+    struct btree *right;
     int key;
-}tree;
-tree *root_tree, *temp_tree;
+}btree;
+btree *root_btree, *temp_btree;
 
-tree* create_tree_node(int);
-void in_order_tree(tree*);
-void pre_order_tree(tree*);
-void post_order_tree(tree*);
-void traversal_tree(tree*, int);
-void print2DUtil(tree*, int);
-void print_bt(tree*);
-int height_tree(tree*);
+btree* create_btree_node(int);
+void in_order_btree(btree*);
+void pre_order_btree(btree*);
+void post_order_btree(btree*);
+void traversal_btree(btree*, int);
+void print2DUtil(btree*, int);
+void print_bt(btree*);
+int height_btree(btree*);
 
 
 #endif //DSAIMPLEMENTATION_BTREE_H

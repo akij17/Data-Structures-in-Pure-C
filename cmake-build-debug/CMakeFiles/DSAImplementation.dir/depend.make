@@ -31,13 +31,13 @@ CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../sortnsearch.h
 
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../liststructures.h
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../main.c
-CMakeFiles/DSAImplementation.dir/main.c.obj: ../main_tree.h
+CMakeFiles/DSAImplementation.dir/main.c.obj: ../main_btree.h
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../stackQueue.h
 
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../avl_bst.h
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../bst.h
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../btree.h
-CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../main_tree.c
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../avl_bst.h
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../bst.h
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../btree.h
+CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../main_btree.c
 
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: ../arraylist.h
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: ../sortnsearch.c
