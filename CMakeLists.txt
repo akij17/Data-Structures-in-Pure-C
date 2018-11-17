@@ -10,4 +10,28 @@ set(CMAKE_INCLUDE_CURRENT_DIR )
 set(CMAKE_INCLUDE_PATH /usr/local/lib)
 
 
-add_executable(DSAImplementation main.c arraylist.c arraylist.h liststructures.c liststructures.h helpers.c helpers.h linkedlist.c linkedlist.h sortnsearch.c sortnsearch.h tree.h tree.c stack_al.h stack_al.c stack_al.h stackQueue.c stackQueue.h main.h)
+add_executable(DSAImplementation main.c
+        arraylist.c
+        arraylist.h
+        liststructures.c
+        liststructures.h
+        helpers.c
+        helpers.h
+        linkedlist.c
+        linkedlist.h
+        sortnsearch.c
+        sortnsearch.h
+        stack_al.h
+        stack_al.c
+        stack_al.h
+        stackQueue.c
+        stackQueue.h
+        main.h
+        btree.c
+        btree.h
+        avl_bst.c
+        avl_bst.h
+        bst.c
+        bst.h
+        main_tree.c
+        main_tree.h)

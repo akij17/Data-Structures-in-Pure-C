@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Akshay\CLionProjects\DSAonC
+CMAKE_SOURCE_DIR = C:\Users\WoLvErInE\CLionProjects\tree4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -148,6 +148,87 @@ arraylist.s: arraylist.c.s
 arraylist.c.s:
 	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/arraylist.c.s
 .PHONY : arraylist.c.s
+
+avl_bst.obj: avl_bst.c.obj
+
+.PHONY : avl_bst.obj
+
+# target to build an object file
+avl_bst.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/avl_bst.c.obj
+.PHONY : avl_bst.c.obj
+
+avl_bst.i: avl_bst.c.i
+
+.PHONY : avl_bst.i
+
+# target to preprocess a source file
+avl_bst.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/avl_bst.c.i
+.PHONY : avl_bst.c.i
+
+avl_bst.s: avl_bst.c.s
+
+.PHONY : avl_bst.s
+
+# target to generate assembly for a file
+avl_bst.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/avl_bst.c.s
+.PHONY : avl_bst.c.s
+
+bst.obj: bst.c.obj
+
+.PHONY : bst.obj
+
+# target to build an object file
+bst.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/bst.c.obj
+.PHONY : bst.c.obj
+
+bst.i: bst.c.i
+
+.PHONY : bst.i
+
+# target to preprocess a source file
+bst.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/bst.c.i
+.PHONY : bst.c.i
+
+bst.s: bst.c.s
+
+.PHONY : bst.s
+
+# target to generate assembly for a file
+bst.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/bst.c.s
+.PHONY : bst.c.s
+
+btree.obj: btree.c.obj
+
+.PHONY : btree.obj
+
+# target to build an object file
+btree.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/btree.c.obj
+.PHONY : btree.c.obj
+
+btree.i: btree.c.i
+
+.PHONY : btree.i
+
+# target to preprocess a source file
+btree.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/btree.c.i
+.PHONY : btree.c.i
+
+btree.s: btree.c.s
+
+.PHONY : btree.s
+
+# target to generate assembly for a file
+btree.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/btree.c.s
+.PHONY : btree.c.s
 
 helpers.obj: helpers.c.obj
 
@@ -257,6 +338,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.c.s
 .PHONY : main.c.s
 
+main_tree.obj: main_tree.c.obj
+
+.PHONY : main_tree.obj
+
+# target to build an object file
+main_tree.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.obj
+.PHONY : main_tree.c.obj
+
+main_tree.i: main_tree.c.i
+
+.PHONY : main_tree.i
+
+# target to preprocess a source file
+main_tree.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.i
+.PHONY : main_tree.c.i
+
+main_tree.s: main_tree.c.s
+
+.PHONY : main_tree.s
+
+# target to generate assembly for a file
+main_tree.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.s
+.PHONY : main_tree.c.s
+
 sortnsearch.obj: sortnsearch.c.obj
 
 .PHONY : sortnsearch.obj
@@ -338,33 +446,6 @@ stack_al.c.s:
 	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/stack_al.c.s
 .PHONY : stack_al.c.s
 
-tree.obj: tree.c.obj
-
-.PHONY : tree.obj
-
-# target to build an object file
-tree.c.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.c.obj
-.PHONY : tree.c.obj
-
-tree.i: tree.c.i
-
-.PHONY : tree.i
-
-# target to preprocess a source file
-tree.c.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.c.i
-.PHONY : tree.c.i
-
-tree.s: tree.c.s
-
-.PHONY : tree.s
-
-# target to generate assembly for a file
-tree.c.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/tree.c.s
-.PHONY : tree.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -377,6 +458,15 @@ help:
 	@echo ... arraylist.obj
 	@echo ... arraylist.i
 	@echo ... arraylist.s
+	@echo ... avl_bst.obj
+	@echo ... avl_bst.i
+	@echo ... avl_bst.s
+	@echo ... bst.obj
+	@echo ... bst.i
+	@echo ... bst.s
+	@echo ... btree.obj
+	@echo ... btree.i
+	@echo ... btree.s
 	@echo ... helpers.obj
 	@echo ... helpers.i
 	@echo ... helpers.s
@@ -389,6 +479,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... main_tree.obj
+	@echo ... main_tree.i
+	@echo ... main_tree.s
 	@echo ... sortnsearch.obj
 	@echo ... sortnsearch.i
 	@echo ... sortnsearch.s
@@ -398,9 +491,6 @@ help:
 	@echo ... stack_al.obj
 	@echo ... stack_al.i
 	@echo ... stack_al.s
-	@echo ... tree.obj
-	@echo ... tree.i
-	@echo ... tree.s
 .PHONY : help
 
 
