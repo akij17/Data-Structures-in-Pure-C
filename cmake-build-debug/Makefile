@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\WoLvErInE\CLionProjects\tree4
+CMAKE_SOURCE_DIR = C:\Users\Akshay\CLionProjects\DSAonC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -230,6 +230,87 @@ btree.c.s:
 	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/btree.c.s
 .PHONY : btree.c.s
 
+graph.obj: graph.c.obj
+
+.PHONY : graph.obj
+
+# target to build an object file
+graph.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/graph.c.obj
+.PHONY : graph.c.obj
+
+graph.i: graph.c.i
+
+.PHONY : graph.i
+
+# target to preprocess a source file
+graph.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/graph.c.i
+.PHONY : graph.c.i
+
+graph.s: graph.c.s
+
+.PHONY : graph.s
+
+# target to generate assembly for a file
+graph.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/graph.c.s
+.PHONY : graph.c.s
+
+graph2.obj: graph2.c.obj
+
+.PHONY : graph2.obj
+
+# target to build an object file
+graph2.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/graph2.c.obj
+.PHONY : graph2.c.obj
+
+graph2.i: graph2.c.i
+
+.PHONY : graph2.i
+
+# target to preprocess a source file
+graph2.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/graph2.c.i
+.PHONY : graph2.c.i
+
+graph2.s: graph2.c.s
+
+.PHONY : graph2.s
+
+# target to generate assembly for a file
+graph2.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/graph2.c.s
+.PHONY : graph2.c.s
+
+heap.obj: heap.c.obj
+
+.PHONY : heap.obj
+
+# target to build an object file
+heap.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/heap.c.obj
+.PHONY : heap.c.obj
+
+heap.i: heap.c.i
+
+.PHONY : heap.i
+
+# target to preprocess a source file
+heap.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/heap.c.i
+.PHONY : heap.c.i
+
+heap.s: heap.c.s
+
+.PHONY : heap.s
+
+# target to generate assembly for a file
+heap.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/heap.c.s
+.PHONY : heap.c.s
+
 helpers.obj: helpers.c.obj
 
 .PHONY : helpers.obj
@@ -338,32 +419,59 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main.c.s
 .PHONY : main.c.s
 
-main_btree.obj: main_btree.c.obj
+main_tree.obj: main_tree.c.obj
 
-.PHONY : main_btree.obj
+.PHONY : main_tree.obj
 
 # target to build an object file
-main_btree.c.obj:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_btree.c.obj
-.PHONY : main_btree.c.obj
+main_tree.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.obj
+.PHONY : main_tree.c.obj
 
-main_btree.i: main_btree.c.i
+main_tree.i: main_tree.c.i
 
-.PHONY : main_btree.i
+.PHONY : main_tree.i
 
 # target to preprocess a source file
-main_btree.c.i:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_btree.c.i
-.PHONY : main_btree.c.i
+main_tree.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.i
+.PHONY : main_tree.c.i
 
-main_btree.s: main_btree.c.s
+main_tree.s: main_tree.c.s
 
-.PHONY : main_btree.s
+.PHONY : main_tree.s
 
 # target to generate assembly for a file
-main_btree.c.s:
-	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_btree.c.s
-.PHONY : main_btree.c.s
+main_tree.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/main_tree.c.s
+.PHONY : main_tree.c.s
+
+queue_ll.obj: queue_ll.c.obj
+
+.PHONY : queue_ll.obj
+
+# target to build an object file
+queue_ll.c.obj:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/queue_ll.c.obj
+.PHONY : queue_ll.c.obj
+
+queue_ll.i: queue_ll.c.i
+
+.PHONY : queue_ll.i
+
+# target to preprocess a source file
+queue_ll.c.i:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/queue_ll.c.i
+.PHONY : queue_ll.c.i
+
+queue_ll.s: queue_ll.c.s
+
+.PHONY : queue_ll.s
+
+# target to generate assembly for a file
+queue_ll.c.s:
+	$(MAKE) -f CMakeFiles\DSAImplementation.dir\build.make CMakeFiles/DSAImplementation.dir/queue_ll.c.s
+.PHONY : queue_ll.c.s
 
 sortnsearch.obj: sortnsearch.c.obj
 
@@ -467,6 +575,15 @@ help:
 	@echo ... btree.obj
 	@echo ... btree.i
 	@echo ... btree.s
+	@echo ... graph.obj
+	@echo ... graph.i
+	@echo ... graph.s
+	@echo ... graph2.obj
+	@echo ... graph2.i
+	@echo ... graph2.s
+	@echo ... heap.obj
+	@echo ... heap.i
+	@echo ... heap.s
 	@echo ... helpers.obj
 	@echo ... helpers.i
 	@echo ... helpers.s
@@ -479,9 +596,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... main_btree.obj
-	@echo ... main_btree.i
-	@echo ... main_btree.s
+	@echo ... main_tree.obj
+	@echo ... main_tree.i
+	@echo ... main_tree.s
+	@echo ... queue_ll.obj
+	@echo ... queue_ll.i
+	@echo ... queue_ll.s
 	@echo ... sortnsearch.obj
 	@echo ... sortnsearch.i
 	@echo ... sortnsearch.s

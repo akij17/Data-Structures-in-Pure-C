@@ -6,29 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/WoLvErInE/CLionProjects/tree4/avl_bst.c
-avl_bst.h
-C:/Users/WoLvErInE/CLionProjects/tree4/avl_bst.h
-stdlib.h
--
-
-C:/Users/WoLvErInE/CLionProjects/tree4/avl_bst.h
-bst.h
-C:/Users/WoLvErInE/CLionProjects/tree4/bst.h
-math.h
--
-
-C:/Users/WoLvErInE/CLionProjects/tree4/bst.h
-btree.h
-C:/Users/WoLvErInE/CLionProjects/tree4/btree.h
-
-C:/Users/WoLvErInE/CLionProjects/tree4/btree.h
-
-C:/Users/WoLvErInE/CLionProjects/tree4/main_btree.c
-avl_bst.h
-C:/Users/WoLvErInE/CLionProjects/tree4/avl_bst.h
+C:/Users/Akshay/CLionProjects/DSAonC/heap.c
+heap.h
+C:/Users/Akshay/CLionProjects/DSAonC/heap.h
 stdio.h
 -
-stdlib.h
+conio.h
 -
+
+C:/Users/Akshay/CLionProjects/DSAonC/heap.h
 

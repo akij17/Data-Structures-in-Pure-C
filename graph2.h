@@ -9,11 +9,16 @@
 
 /* for directed graph */
 
-typedef struct graph* Graph;
-Graph graph_create(int n);
-void graph_destroy(Graph);
-void graph_add_edge(Graph, int source, int sink);
-int graph_vertex_count(Graph);
-int graph_edge_count(Graph);
-int graph_out_degree(Graph, int source);
-int graph_has_edge(Graph, int source, int sink);
+struct graph2 {
+    int v, e;
+    int* matrix;
+};
+typedef struct graph2* Graph2;
+Graph2 graph2_create(int n);
+void graph2_destroy(Graph2);
+void graph2_add_edge(Graph2, int source, int sink);
+int graph2_vertex_count(Graph2);
+int graph2_edge_count(Graph2);
+int graph2_out_degree(Graph2, int source);
+int graph2_has_edge(Graph2, int source, int sink);
+void main_graph2();

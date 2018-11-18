@@ -6,6 +6,7 @@
 #include "stack_al.h"
 #include "main.h"
 #include <stdio.h>
+#include "queue_ll.h"
 
 void stackOptions();
 void queueOptions();
@@ -15,9 +16,10 @@ char *sq1 = "Stack";
 char *sq2 = "Queue";
 
 void stackQueue(){
-    printf("Which data structure would you like to work on ?\n"
+    printf("\nWhich data structure would you like to work on ?\n"
            "1. Stack\n"
            "2. Queue\n"
+           "99. Return to main menu\n"
            "Enter your option: ");
     int x; scanf("%d", &x);
     switch (x){
@@ -26,6 +28,9 @@ void stackQueue(){
             break;
         case 2:
             queueOptions();
+            break;
+        case 99:
+            main();
             break;
         default:
             printf("Invalid entry. Going to main menu");
@@ -82,5 +87,46 @@ void stackOptions(){
 }
 
 void queueOptions(){
+    queue_ll *queue = new_queue_ll();
+    beginQueue:
+    printf("\n"
+           "Enter your choice from options below\n"
+           "1. Enqueue items in queue\n"
+           "2. Dequeue items from queue\n"
+           "3. Front of the queue\n"
+           "4. Back to main menu\n"
+           "Enter your choice: "
+    );
+
+    int c1; scanf("%d", &c1);
+    switch(c1){
+        case 1:
+            printf("Enter element to enqueue: ");
+            int x; scanf("%d", &x);
+            enqueue_queue_ll(queue, x);
+            goto beginQueue;
+        case 2:
+            printf("Dequeue item: ");
+            int item = dequeue_queue_ll(queue);
+            if(item == -1){
+                printf("Queue is empty\n");
+            }else
+                printf("%d\n", item);
+            goto beginQueue;
+        case 3:
+            printf("Front item: ");
+            int itm = front_queue_ll(queue);
+            if(itm == -1){
+                printf("Queue is empty\n");
+            }else
+                printf("%d\n", itm);
+            goto beginQueue;
+        case 4:
+            stackQueue();
+            break;
+        default:
+            printf("invalid entry");
+            goto beginQueue;
+    }
 
 }

@@ -4,6 +4,7 @@
 
 #include "sortnsearch.h"
 #include "arraylist.h"
+#include "linkedlist.h"
 
 
 //Type = 0 for ascending sort Type = 1 for descending sort
@@ -34,4 +35,8 @@ int linearSearch_arrayList(arrayList aList, int item){
         }
     }
     return 0;
+}
+
+int linearSearch_linkedList(linkedList lList, int item){
+    
 }

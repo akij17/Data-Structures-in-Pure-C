@@ -16,6 +16,15 @@ CMakeFiles/DSAImplementation.dir/bst.c.obj: ../btree.h
 CMakeFiles/DSAImplementation.dir/btree.c.obj: ../btree.c
 CMakeFiles/DSAImplementation.dir/btree.c.obj: ../btree.h
 
+CMakeFiles/DSAImplementation.dir/graph.c.obj: ../graph.c
+CMakeFiles/DSAImplementation.dir/graph.c.obj: ../graph.h
+
+CMakeFiles/DSAImplementation.dir/graph2.c.obj: ../graph2.c
+CMakeFiles/DSAImplementation.dir/graph2.c.obj: ../graph2.h
+
+CMakeFiles/DSAImplementation.dir/heap.c.obj: ../heap.c
+CMakeFiles/DSAImplementation.dir/heap.c.obj: ../heap.h
+
 CMakeFiles/DSAImplementation.dir/helpers.c.obj: ../helpers.c
 CMakeFiles/DSAImplementation.dir/helpers.c.obj: ../helpers.h
 
@@ -29,22 +38,33 @@ CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../liststructures.c
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../liststructures.h
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../sortnsearch.h
 
+CMakeFiles/DSAImplementation.dir/main.c.obj: ../graph.h
+CMakeFiles/DSAImplementation.dir/main.c.obj: ../graph2.h
+CMakeFiles/DSAImplementation.dir/main.c.obj: ../heap.h
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../liststructures.h
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../main.c
-CMakeFiles/DSAImplementation.dir/main.c.obj: ../main_btree.h
+CMakeFiles/DSAImplementation.dir/main.c.obj: ../main_tree.h
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../stackQueue.h
 
-CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../avl_bst.h
-CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../bst.h
-CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../btree.h
-CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../main_btree.c
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../avl_bst.h
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../bst.h
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../btree.h
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../helpers.h
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../main_tree.c
+
+CMakeFiles/DSAImplementation.dir/queue_ll.c.obj: ../linkedlist.h
+CMakeFiles/DSAImplementation.dir/queue_ll.c.obj: ../queue_ll.c
+CMakeFiles/DSAImplementation.dir/queue_ll.c.obj: ../queue_ll.h
 
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: ../arraylist.h
+CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: ../linkedlist.h
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: ../sortnsearch.c
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: ../sortnsearch.h
 
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../arraylist.h
+CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../linkedlist.h
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../main.h
+CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../queue_ll.h
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../stackQueue.c
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../stackQueue.h
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../stack_al.h

@@ -5,7 +5,7 @@
 #include "bst.h"
 #include<stdlib.h>
 
-btree* search_bst(btree *t, int key)
+tree* search_bst(tree *t, int key)
 {
     if(t == NULL || t->key == key)
         return t;
@@ -15,7 +15,7 @@ btree* search_bst(btree *t, int key)
         return search_bst(t->right, key);
 }
 
-btree* minimum_key_bst(btree *t)
+tree* minimum_key_bst(tree *t)
 {
     if(t == NULL || t->left == NULL)
         return t;
@@ -23,7 +23,7 @@ btree* minimum_key_bst(btree *t)
         minimum_key_bst(t->left);
 }
 
-btree* maximum_key_bst(btree *t)
+tree* maximum_key_bst(tree *t)
 {
     if(t == NULL || t->right == NULL)
         return t;

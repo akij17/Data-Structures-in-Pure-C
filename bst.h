@@ -7,9 +7,9 @@
 
 #include "btree.h"
 
-btree* search_bst(btree*, int);
-btree* minimum_key_bst(btree*);
-btree* maximum_key_bst(btree*);
+tree* search_bst(tree*, int);
+tree* minimum_key_bst(tree*);
+tree* maximum_key_bst(tree*);
 
 
 #endif //DSAIMPLEMENTATION_BST_H

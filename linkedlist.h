@@ -12,6 +12,7 @@ typedef struct node{
 
 typedef struct linkedList{
     int size;
+    node *tail;
     node *head;
 } linkedList;
 
@@ -19,5 +20,6 @@ linkedList *newLinkedList();
 void insert_linkedList(linkedList*, int, int);
 int isEmpty_linkedList(linkedList);
 void displayList_linkedList(linkedList);
+void delete_linkedList(linkedList*, int);
 
 #endif //DSAIMPLEMENTATION_LINKEDLIST_H

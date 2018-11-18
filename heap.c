@@ -6,29 +6,50 @@
 #include<stdio.h>
 #include<conio.h>
 void crheap(int [], int);
+int createHeap(int[]);
 void processheap(int [],int);
-int main(void)
+void main_heap()
 {
-    int k[50],child,parent,q,key,n,t,i;
     //clrscr();
+    int k[50], n;
+    heap:;
+    int x;
+    printf("\n"
+           "1. Enter elements into heap\n"
+           "2. Sort Heap\n"
+           "3. Output array\n"
+           "99. Main menu\n"
+           "Enter yor selection: "
+    );
+    int x1;
+    int output;
+    scanf("%d", &x1);
+    switch(x1){
+        case 1:
+            n = createHeap(k);
+            goto heap;
+        case 2:
+            processheap(k,n);
+            goto heap;
+        case 3:
+            processheap(k, n);
+            goto heap;
+        default:
+            return;
+    }
+}
+
+int createHeap(int k[]){
+    int i, n;
     printf("\n Number of elements: ");
     scanf(" %d",&n);
     printf("\n Enter the elements in the heap: ");
     for(i=1;i<=n;i++)
         scanf(" %d",&k[i]);
     crheap(k,n);
-    processheap(k,n);
-    return(0);
+    return n;
 }
 
-/*function to create a heap, in this algorithm the value of a child
-  node is saved into a key and then if its parent has value less than the
-  key then the parent node is shifted to its child place and this process
-  of copying the parent node to its child's place continues until the
-  correct place of key is found or the root is reached, in that case key
-  is inserted at the root's place
-  function to create a heap, in this algorithm every time
-  a child node has value greater than its parent the two are interchanged */
 void crheap(int k[],int n)
 {
     int i,q, parent,child,temp;

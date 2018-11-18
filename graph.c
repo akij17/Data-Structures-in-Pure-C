@@ -7,12 +7,7 @@
 #include <assert.h>
 #include "graph.h"
 
-struct graph {
-    int v, e;
-    struct vertices {
-        int s, succ_list[1];
-    }* alist[1];
-};
+
 Graph graph_create(int n) {
     Graph g; int i;
     g = malloc(sizeof(struct graph) + sizeof(struct vertices *) * (n-1));
@@ -49,20 +44,40 @@ int graph_has_edge(Graph g, int u, int v) {
     return 0;
 }
 
-//void main() {
-//    Graph g = graph_create(4);
-//    graph_add_edge(g, 0, 1);
-//    graph_add_edge(g, 0, 2);
-//    graph_add_edge(g, 0, 3);
-//    graph_add_edge(g, 1, 2);
-//    graph_add_edge(g, 1, 3);
-//    graph_add_edge(g, 2, 3);
-//    graph_add_edge(g, 2, 0);
-//    graph_add_edge(g, 3, 1);
-//
-//
-//    printf("out degree of 0 node : %d\n", graph_out_degree(g, 0));
-//    printf("Has Edge : %d\n", graph_has_edge(g, 0, 2));
-//    printf("Total Nodes : %d\n", graph_vertex_count(g));
-//    printf("Total edges : %d\n", graph_edge_count(g));
-//}
+void main_graph1() {
+    beginGraph1:
+    printf("\n"
+           "1. Generate graph\n"
+           "2. Find out-degree of a node\n"
+           "3. Find total nodes\n"
+           "4. Find total edges\n"
+           "99. Main Menu\n"
+    );
+
+    int x; scanf("%d", &x);
+    switch (x){
+        case 1:;
+            Graph g = graph_create(4);
+            graph_add_edge(g, 0, 1);
+            graph_add_edge(g, 0, 2);
+            graph_add_edge(g, 0, 3);
+            graph_add_edge(g, 1, 2);
+            graph_add_edge(g, 1, 3);
+            graph_add_edge(g, 2, 3);
+            graph_add_edge(g, 2, 0);
+            graph_add_edge(g, 3, 1);
+            goto beginGraph1;
+        case 2:
+            printf("out degree of 0 node : %d\n", graph_out_degree(g, 0));
+            goto beginGraph1;
+        case 3:
+            printf("Total Nodes : %d\n", graph_vertex_count(g));
+            goto beginGraph1;
+        case 4:
+            printf("Total edges : %d\n", graph_edge_count(g));
+            goto beginGraph1;
+        default:
+            return;
+    }
+
+}

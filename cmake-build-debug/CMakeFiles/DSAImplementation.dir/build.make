@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\WoLvErInE\CLionProjects\tree4
+CMAKE_SOURCE_DIR = C:\Users\Akshay\CLionProjects\DSAonC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DSAImplementation.dir/depend.make
@@ -59,170 +59,226 @@ include CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/main.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/main.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DSAImplementation.dir/main.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\main.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DSAImplementation.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\main.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\main.c
 
 CMakeFiles/DSAImplementation.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/main.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\main.c > CMakeFiles\DSAImplementation.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\main.c > CMakeFiles\DSAImplementation.dir\main.c.i
 
 CMakeFiles/DSAImplementation.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/main.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\main.c -o CMakeFiles\DSAImplementation.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\main.c -o CMakeFiles\DSAImplementation.dir\main.c.s
 
 CMakeFiles/DSAImplementation.dir/arraylist.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/arraylist.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/arraylist.c.obj: ../arraylist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DSAImplementation.dir/arraylist.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\arraylist.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\arraylist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DSAImplementation.dir/arraylist.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\arraylist.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\arraylist.c
 
 CMakeFiles/DSAImplementation.dir/arraylist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/arraylist.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\arraylist.c > CMakeFiles\DSAImplementation.dir\arraylist.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\arraylist.c > CMakeFiles\DSAImplementation.dir\arraylist.c.i
 
 CMakeFiles/DSAImplementation.dir/arraylist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/arraylist.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\arraylist.c -o CMakeFiles\DSAImplementation.dir\arraylist.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\arraylist.c -o CMakeFiles\DSAImplementation.dir\arraylist.c.s
 
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../liststructures.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DSAImplementation.dir/liststructures.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\liststructures.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\liststructures.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DSAImplementation.dir/liststructures.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\liststructures.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\liststructures.c
 
 CMakeFiles/DSAImplementation.dir/liststructures.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/liststructures.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\liststructures.c > CMakeFiles\DSAImplementation.dir\liststructures.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\liststructures.c > CMakeFiles\DSAImplementation.dir\liststructures.c.i
 
 CMakeFiles/DSAImplementation.dir/liststructures.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/liststructures.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\liststructures.c -o CMakeFiles\DSAImplementation.dir\liststructures.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\liststructures.c -o CMakeFiles\DSAImplementation.dir\liststructures.c.s
 
 CMakeFiles/DSAImplementation.dir/helpers.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/helpers.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/helpers.c.obj: ../helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DSAImplementation.dir/helpers.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\helpers.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DSAImplementation.dir/helpers.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\helpers.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\helpers.c
 
 CMakeFiles/DSAImplementation.dir/helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/helpers.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\helpers.c > CMakeFiles\DSAImplementation.dir\helpers.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\helpers.c > CMakeFiles\DSAImplementation.dir\helpers.c.i
 
 CMakeFiles/DSAImplementation.dir/helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/helpers.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\helpers.c -o CMakeFiles\DSAImplementation.dir\helpers.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\helpers.c -o CMakeFiles\DSAImplementation.dir\helpers.c.s
 
 CMakeFiles/DSAImplementation.dir/linkedlist.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/linkedlist.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/linkedlist.c.obj: ../linkedlist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DSAImplementation.dir/linkedlist.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\linkedlist.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\linkedlist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DSAImplementation.dir/linkedlist.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\linkedlist.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\linkedlist.c
 
 CMakeFiles/DSAImplementation.dir/linkedlist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/linkedlist.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\linkedlist.c > CMakeFiles\DSAImplementation.dir\linkedlist.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\linkedlist.c > CMakeFiles\DSAImplementation.dir\linkedlist.c.i
 
 CMakeFiles/DSAImplementation.dir/linkedlist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/linkedlist.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\linkedlist.c -o CMakeFiles\DSAImplementation.dir\linkedlist.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\linkedlist.c -o CMakeFiles\DSAImplementation.dir\linkedlist.c.s
 
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj: ../sortnsearch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\sortnsearch.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\sortnsearch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\sortnsearch.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\sortnsearch.c
 
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/sortnsearch.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\sortnsearch.c > CMakeFiles\DSAImplementation.dir\sortnsearch.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\sortnsearch.c > CMakeFiles\DSAImplementation.dir\sortnsearch.c.i
 
 CMakeFiles/DSAImplementation.dir/sortnsearch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/sortnsearch.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\sortnsearch.c -o CMakeFiles\DSAImplementation.dir\sortnsearch.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\sortnsearch.c -o CMakeFiles\DSAImplementation.dir\sortnsearch.c.s
 
 CMakeFiles/DSAImplementation.dir/stack_al.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/stack_al.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/stack_al.c.obj: ../stack_al.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/DSAImplementation.dir/stack_al.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\stack_al.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\stack_al.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/DSAImplementation.dir/stack_al.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\stack_al.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\stack_al.c
 
 CMakeFiles/DSAImplementation.dir/stack_al.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/stack_al.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\stack_al.c > CMakeFiles\DSAImplementation.dir\stack_al.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\stack_al.c > CMakeFiles\DSAImplementation.dir\stack_al.c.i
 
 CMakeFiles/DSAImplementation.dir/stack_al.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/stack_al.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\stack_al.c -o CMakeFiles\DSAImplementation.dir\stack_al.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\stack_al.c -o CMakeFiles\DSAImplementation.dir\stack_al.c.s
 
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/stackQueue.c.obj: ../stackQueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/DSAImplementation.dir/stackQueue.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\stackQueue.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\stackQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/DSAImplementation.dir/stackQueue.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\stackQueue.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\stackQueue.c
 
 CMakeFiles/DSAImplementation.dir/stackQueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/stackQueue.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\stackQueue.c > CMakeFiles\DSAImplementation.dir\stackQueue.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\stackQueue.c > CMakeFiles\DSAImplementation.dir\stackQueue.c.i
 
 CMakeFiles/DSAImplementation.dir/stackQueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/stackQueue.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\stackQueue.c -o CMakeFiles\DSAImplementation.dir\stackQueue.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\stackQueue.c -o CMakeFiles\DSAImplementation.dir\stackQueue.c.s
 
-CMakeFiles/DSAImplementation.dir/btree.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
-CMakeFiles/DSAImplementation.dir/btree.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
-CMakeFiles/DSAImplementation.dir/btree.c.obj: ../btree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/DSAImplementation.dir/btree.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\btree.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\btree.c
+CMakeFiles/DSAImplementation.dir/queue_ll.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
+CMakeFiles/DSAImplementation.dir/queue_ll.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
+CMakeFiles/DSAImplementation.dir/queue_ll.c.obj: ../queue_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/DSAImplementation.dir/queue_ll.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\queue_ll.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\queue_ll.c
 
-CMakeFiles/DSAImplementation.dir/btree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/btree.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\btree.c > CMakeFiles\DSAImplementation.dir\btree.c.i
+CMakeFiles/DSAImplementation.dir/queue_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/queue_ll.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\queue_ll.c > CMakeFiles\DSAImplementation.dir\queue_ll.c.i
 
-CMakeFiles/DSAImplementation.dir/btree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/btree.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\btree.c -o CMakeFiles\DSAImplementation.dir\btree.c.s
+CMakeFiles/DSAImplementation.dir/queue_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/queue_ll.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\queue_ll.c -o CMakeFiles\DSAImplementation.dir\queue_ll.c.s
 
 CMakeFiles/DSAImplementation.dir/avl_bst.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/avl_bst.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/avl_bst.c.obj: ../avl_bst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/DSAImplementation.dir/avl_bst.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\avl_bst.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\avl_bst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/DSAImplementation.dir/avl_bst.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\avl_bst.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\avl_bst.c
 
 CMakeFiles/DSAImplementation.dir/avl_bst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/avl_bst.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\avl_bst.c > CMakeFiles\DSAImplementation.dir\avl_bst.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\avl_bst.c > CMakeFiles\DSAImplementation.dir\avl_bst.c.i
 
 CMakeFiles/DSAImplementation.dir/avl_bst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/avl_bst.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\avl_bst.c -o CMakeFiles\DSAImplementation.dir\avl_bst.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\avl_bst.c -o CMakeFiles\DSAImplementation.dir\avl_bst.c.s
 
 CMakeFiles/DSAImplementation.dir/bst.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
 CMakeFiles/DSAImplementation.dir/bst.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
 CMakeFiles/DSAImplementation.dir/bst.c.obj: ../bst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/DSAImplementation.dir/bst.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\bst.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\bst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/DSAImplementation.dir/bst.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\bst.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\bst.c
 
 CMakeFiles/DSAImplementation.dir/bst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/bst.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\bst.c > CMakeFiles\DSAImplementation.dir\bst.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\bst.c > CMakeFiles\DSAImplementation.dir\bst.c.i
 
 CMakeFiles/DSAImplementation.dir/bst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/bst.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\bst.c -o CMakeFiles\DSAImplementation.dir\bst.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\bst.c -o CMakeFiles\DSAImplementation.dir\bst.c.s
 
-CMakeFiles/DSAImplementation.dir/main_btree.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
-CMakeFiles/DSAImplementation.dir/main_btree.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
-CMakeFiles/DSAImplementation.dir/main_btree.c.obj: ../main_btree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/DSAImplementation.dir/main_btree.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\main_btree.c.obj   -c C:\Users\WoLvErInE\CLionProjects\tree4\main_btree.c
+CMakeFiles/DSAImplementation.dir/btree.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
+CMakeFiles/DSAImplementation.dir/btree.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
+CMakeFiles/DSAImplementation.dir/btree.c.obj: ../btree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/DSAImplementation.dir/btree.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\btree.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\btree.c
 
-CMakeFiles/DSAImplementation.dir/main_btree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/main_btree.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\WoLvErInE\CLionProjects\tree4\main_btree.c > CMakeFiles\DSAImplementation.dir\main_btree.c.i
+CMakeFiles/DSAImplementation.dir/btree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/btree.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\btree.c > CMakeFiles\DSAImplementation.dir\btree.c.i
 
-CMakeFiles/DSAImplementation.dir/main_btree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/main_btree.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\WoLvErInE\CLionProjects\tree4\main_btree.c -o CMakeFiles\DSAImplementation.dir\main_btree.c.s
+CMakeFiles/DSAImplementation.dir/btree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/btree.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\btree.c -o CMakeFiles\DSAImplementation.dir\btree.c.s
+
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
+CMakeFiles/DSAImplementation.dir/main_tree.c.obj: ../main_tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/DSAImplementation.dir/main_tree.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\main_tree.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\main_tree.c
+
+CMakeFiles/DSAImplementation.dir/main_tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/main_tree.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\main_tree.c > CMakeFiles\DSAImplementation.dir\main_tree.c.i
+
+CMakeFiles/DSAImplementation.dir/main_tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/main_tree.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\main_tree.c -o CMakeFiles\DSAImplementation.dir\main_tree.c.s
+
+CMakeFiles/DSAImplementation.dir/graph.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
+CMakeFiles/DSAImplementation.dir/graph.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
+CMakeFiles/DSAImplementation.dir/graph.c.obj: ../graph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/DSAImplementation.dir/graph.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\graph.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\graph.c
+
+CMakeFiles/DSAImplementation.dir/graph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/graph.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\graph.c > CMakeFiles\DSAImplementation.dir\graph.c.i
+
+CMakeFiles/DSAImplementation.dir/graph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/graph.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\graph.c -o CMakeFiles\DSAImplementation.dir\graph.c.s
+
+CMakeFiles/DSAImplementation.dir/graph2.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
+CMakeFiles/DSAImplementation.dir/graph2.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
+CMakeFiles/DSAImplementation.dir/graph2.c.obj: ../graph2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/DSAImplementation.dir/graph2.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\graph2.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\graph2.c
+
+CMakeFiles/DSAImplementation.dir/graph2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/graph2.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\graph2.c > CMakeFiles\DSAImplementation.dir\graph2.c.i
+
+CMakeFiles/DSAImplementation.dir/graph2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/graph2.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\graph2.c -o CMakeFiles\DSAImplementation.dir\graph2.c.s
+
+CMakeFiles/DSAImplementation.dir/heap.c.obj: CMakeFiles/DSAImplementation.dir/flags.make
+CMakeFiles/DSAImplementation.dir/heap.c.obj: CMakeFiles/DSAImplementation.dir/includes_C.rsp
+CMakeFiles/DSAImplementation.dir/heap.c.obj: ../heap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/DSAImplementation.dir/heap.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSAImplementation.dir\heap.c.obj   -c C:\Users\Akshay\CLionProjects\DSAonC\heap.c
+
+CMakeFiles/DSAImplementation.dir/heap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSAImplementation.dir/heap.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akshay\CLionProjects\DSAonC\heap.c > CMakeFiles\DSAImplementation.dir\heap.c.i
+
+CMakeFiles/DSAImplementation.dir/heap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSAImplementation.dir/heap.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akshay\CLionProjects\DSAonC\heap.c -o CMakeFiles\DSAImplementation.dir\heap.c.s
 
 # Object files for target DSAImplementation
 DSAImplementation_OBJECTS = \
@@ -234,10 +290,14 @@ DSAImplementation_OBJECTS = \
 "CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj" \
 "CMakeFiles/DSAImplementation.dir/stack_al.c.obj" \
 "CMakeFiles/DSAImplementation.dir/stackQueue.c.obj" \
-"CMakeFiles/DSAImplementation.dir/btree.c.obj" \
+"CMakeFiles/DSAImplementation.dir/queue_ll.c.obj" \
 "CMakeFiles/DSAImplementation.dir/avl_bst.c.obj" \
 "CMakeFiles/DSAImplementation.dir/bst.c.obj" \
-"CMakeFiles/DSAImplementation.dir/main_btree.c.obj"
+"CMakeFiles/DSAImplementation.dir/btree.c.obj" \
+"CMakeFiles/DSAImplementation.dir/main_tree.c.obj" \
+"CMakeFiles/DSAImplementation.dir/graph.c.obj" \
+"CMakeFiles/DSAImplementation.dir/graph2.c.obj" \
+"CMakeFiles/DSAImplementation.dir/heap.c.obj"
 
 # External object files for target DSAImplementation
 DSAImplementation_EXTERNAL_OBJECTS =
@@ -250,15 +310,19 @@ DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/linkedlist.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/sortnsearch.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/stack_al.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/stackQueue.c.obj
-DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/btree.c.obj
+DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/queue_ll.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/avl_bst.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/bst.c.obj
-DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/main_btree.c.obj
+DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/btree.c.obj
+DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/main_tree.c.obj
+DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/graph.c.obj
+DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/graph2.c.obj
+DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/heap.c.obj
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/build.make
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/linklibs.rsp
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/objects1.rsp
 DSAImplementation.exe: CMakeFiles/DSAImplementation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable DSAImplementation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable DSAImplementation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DSAImplementation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -271,6 +335,6 @@ CMakeFiles/DSAImplementation.dir/clean:
 .PHONY : CMakeFiles/DSAImplementation.dir/clean
 
 CMakeFiles/DSAImplementation.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\WoLvErInE\CLionProjects\tree4 C:\Users\WoLvErInE\CLionProjects\tree4 C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug C:\Users\WoLvErInE\CLionProjects\tree4\cmake-build-debug\CMakeFiles\DSAImplementation.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Akshay\CLionProjects\DSAonC C:\Users\Akshay\CLionProjects\DSAonC C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug C:\Users\Akshay\CLionProjects\DSAonC\cmake-build-debug\CMakeFiles\DSAImplementation.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DSAImplementation.dir/depend
 

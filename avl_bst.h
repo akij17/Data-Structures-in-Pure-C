@@ -8,8 +8,8 @@
 #include "bst.h"
 #include<math.h>
 
-btree* re_balance_bst(btree*);
-btree* insert_bst(btree*, int);
-btree* array_insert_bst(int[], int);
+tree* re_balance_bst(tree*);
+tree* insert_bst(tree*, int);
+tree* array_insert_bst(tree*, int[], int);
 
 #endif //DSAIMPLEMENTATION_AVL_BST_H

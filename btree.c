@@ -6,70 +6,70 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-btree* create_btree_node(int key)
+tree* create_tree_node(int key)
 {
-    temp_btree = (btree *)malloc(sizeof(btree));
-    temp_btree->key = key;
-    temp_btree->left = temp_btree->right = NULL;
-    return temp_btree;
+    temp_tree = (tree *)malloc(sizeof(tree));
+    temp_tree->key = key;
+    temp_tree->left = temp_tree->right = NULL;
+    return temp_tree;
 }
 
-void in_order_btree(btree *t)
-{
-    if(t==NULL)
-        return;
-    else
-    {
-        in_order_btree(t->left);
-        printf("%d ",t->key);
-        in_order_btree(t->right);
-    }
-}
-
-void pre_order_btree(btree *t)
+void in_order_tree(tree *t)
 {
     if(t==NULL)
         return;
     else
     {
+        in_order_tree(t->left);
         printf("%d ",t->key);
-        pre_order_btree(t->left);
-        pre_order_btree(t->right);
+        in_order_tree(t->right);
     }
 }
 
-void post_order_btree(btree *t)
+void pre_order_tree(tree *t)
 {
     if(t==NULL)
         return;
     else
     {
-        post_order_btree(t->left);
-        post_order_btree(t->right);
+        printf("%d ",t->key);
+        pre_order_tree(t->left);
+        pre_order_tree(t->right);
+    }
+}
+
+void post_order_tree(tree *t)
+{
+    if(t==NULL)
+        return;
+    else
+    {
+        post_order_tree(t->left);
+        post_order_tree(t->right);
         printf("%d ",t->key);
     }
 }
 
-void traversal_btree(btree *t, int ch)
+void traversal_tree(tree *t, int ch)
 {
     switch(ch)
     {
         case 1:
             printf("\nPre Order Traversal :\n");
-            pre_order_btree(t);
+            pre_order_tree(t);
             break;
         case 2:
             printf("\nIn Order Traversal :\n");
-            in_order_btree(t);
+            in_order_tree(t);
             break;
         case 3:
             printf("\nPost Order Traversal :\n");
-            post_order_btree(t);
+            post_order_tree(t);
             break;
     }
 }
 
-void print2DUtil(btree *t, int space)
+void print2DUtil(tree *t, int space)
 {
     // Base case
     if (t == NULL)
@@ -93,20 +93,20 @@ void print2DUtil(btree *t, int space)
     print2DUtil(t->left, space);
 }
 
-void print_bt(btree *t)
+void print_bt(tree *t)
 {
     print2DUtil(t, 0);
 }
 
-int height_btree(btree *t)
+int height_tree(tree *t)
 {
     int left_height,right_height;
     if(t == NULL)
         return -1;
     else
     {
-        left_height = height_btree(t->left);
-        right_height = height_btree(t->right);
+        left_height = height_tree(t->left);
+        right_height = height_tree(t->right);
         return 1+(left_height > right_height ? left_height : right_height);
     }
 }

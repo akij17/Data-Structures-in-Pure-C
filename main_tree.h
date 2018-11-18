@@ -1,0 +1,10 @@
+//
+// Created by WoLvErInE on 17-11-2018.
+//
+
+#ifndef DSAIMPLEMENTATION_MAIN_TREE_H
+#define DSAIMPLEMENTATION_MAIN_TREE_H
+
+void main_tree();
+
+#endif //DSAIMPLEMENTATION_MAIN_TREE_H

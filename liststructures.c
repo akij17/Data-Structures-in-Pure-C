@@ -61,21 +61,28 @@ void listMenu(){
             }
             goto begin;
         case 3:
-            printf("\n"
-                   "To delete by position enter P followed by position\n"
-                   "To delete by item enter I followed by item\n"
-                   "Delete: ");
-            int i2;
-            char p2;
-            scanf("%c %d", &p2, &i2);
-            if(p2 == 'P'){
-                delete_arrayList(aList, i2);
-            }
-            else if(p2 == 'I'){
-                int pos = linearSearch_arrayList(*aList, i2);
-                if(pos!=0)
-                    delete_arrayList(aList, pos);
-                else printf("%d does not exist in the list", i2);
+            if(listType==0) {
+                printf("\n"
+                       "To delete by position enter P followed by position\n"
+                       "To delete by item enter I followed by item\n"
+                       "Delete: ");
+                int i2;
+                char p2;
+                scanf("%c %d", &p2, &i2);
+                if (p2 == 'P') {
+                    delete_arrayList(aList, i2);
+                } else if (p2 == 'I') {
+                    int pos = linearSearch_arrayList(*aList, i2);
+                    if (pos != 0)
+                        delete_arrayList(aList, pos);
+                    else printf("%d does not exist in the list", i2);
+                }
+            }else{
+                printf("\n"
+                       "Enter the position to delete: "
+                );
+                int i2; scanf("%d", &i2);
+                delete_linkedList(lList, i2);
             }
             goto begin;
         case 4:
