@@ -36,6 +36,7 @@ CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../helpers.h
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../linkedlist.h
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../liststructures.c
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../liststructures.h
+CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../main.h
 CMakeFiles/DSAImplementation.dir/liststructures.c.obj: ../sortnsearch.h
 
 CMakeFiles/DSAImplementation.dir/main.c.obj: ../graph.h

@@ -8,6 +8,7 @@
 #include "arraylist.h"
 #include "linkedlist.h"
 #include "helpers.h"
+#include "main.h"
 #include "sortnsearch.h"
 
 static int listType = 0;
@@ -101,7 +102,9 @@ void listMenu(){
             switchList();
             printf("\nSwitched to %s",listType==0?s0:s1);
             goto begin;
-        default:break;
+        default:
+            main();
+            return;
     }
 }
 

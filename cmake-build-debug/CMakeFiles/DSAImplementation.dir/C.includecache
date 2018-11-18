@@ -6,13 +6,35 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Akshay/CLionProjects/DSAonC/heap.c
-heap.h
-C:/Users/Akshay/CLionProjects/DSAonC/heap.h
+C:/Users/Akshay/CLionProjects/DSAonC/arraylist.h
+
+C:/Users/Akshay/CLionProjects/DSAonC/helpers.h
+
+C:/Users/Akshay/CLionProjects/DSAonC/linkedlist.h
+
+C:/Users/Akshay/CLionProjects/DSAonC/liststructures.c
 stdio.h
 -
-conio.h
+stdlib.h
 -
+liststructures.h
+C:/Users/Akshay/CLionProjects/DSAonC/liststructures.h
+arraylist.h
+C:/Users/Akshay/CLionProjects/DSAonC/arraylist.h
+linkedlist.h
+C:/Users/Akshay/CLionProjects/DSAonC/linkedlist.h
+helpers.h
+C:/Users/Akshay/CLionProjects/DSAonC/helpers.h
+main.h
+C:/Users/Akshay/CLionProjects/DSAonC/main.h
+sortnsearch.h
+C:/Users/Akshay/CLionProjects/DSAonC/sortnsearch.h
 
-C:/Users/Akshay/CLionProjects/DSAonC/heap.h
+C:/Users/Akshay/CLionProjects/DSAonC/liststructures.h
+
+C:/Users/Akshay/CLionProjects/DSAonC/main.h
+
+C:/Users/Akshay/CLionProjects/DSAonC/sortnsearch.h
+arraylist.h
+C:/Users/Akshay/CLionProjects/DSAonC/arraylist.h
 
