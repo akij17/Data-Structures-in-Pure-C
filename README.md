@@ -5,3 +5,9 @@ A simple project to implement Data Structures and Algorithms in C language.
 Currently support data structures:
   > Array List
   > Linked List
+  > Stack  
+  > Queue  
+  > Heap  
+  > Tree  
+  > Graph  
+  
